@@ -232,8 +232,7 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-color: #c9c9c9;
-    background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');
+    background-image: url('../assets/background.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -306,6 +305,7 @@ footer {
 
     header .header-content .inner h1 {
         font-size: 53px;
+
     }
 
     header .header-content .inner p {
@@ -521,4 +521,7 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0;
+}
+header .header-edit{
+background-img: url('../static/assets/background')
 }
