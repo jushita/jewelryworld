@@ -276,7 +276,7 @@ header .header-content .inner p {
 }
 
 footer {
-    background-color:#0C1A42;
+    background-color:#2B3846;
 }
 
 @media(min-width:768px) {
@@ -317,7 +317,7 @@ footer {
     
     section {
         min-height: 600px;
-        padding: 100px 0;
+        padding: 100px 0 0 0;
     }
 
 }
@@ -522,6 +522,22 @@ img::-moz-selection {
     color: #fff;
     background: 0 0;
 }
-header .header-edit{
-background-img: url('../static/assets/background')
+.contact-details {
+    background: #0C1A42;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+.footer-edit {
+    text-align: center;
+}
+.copyright{
+    font-size: 13px;
+}
+.images{
+      width: 350px;
+      max-width: 100%;
+      display: block;
+
 }
